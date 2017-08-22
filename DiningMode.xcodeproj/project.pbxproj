@@ -21,6 +21,22 @@
 		009573361DF23288003412B9 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 009573331DF2327D003412B9 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00EE09721DF24D160096F568 /* PartialReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = 00EE09711DF24D160096F568 /* PartialReservation.json */; };
 		00EE09741DF24D520096F568 /* FullReservation.json in Resources */ = {isa = PBXBuildFile; fileRef = 00EE09731DF24D520096F568 /* FullReservation.json */; };
+		3A75D19F1F4955CE0095A4CE /* DiningModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A75D19D1F4955CE0095A4CE /* DiningModeViewController.swift */; };
+		3A75D1A01F4955CE0095A4CE /* DiningModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A75D19E1F4955CE0095A4CE /* DiningModeViewController.xib */; };
+		3A75D1A61F4963010095A4CE /* BannerInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A75D1A51F4963010095A4CE /* BannerInteractiveTransition.swift */; };
+		3A75D1AC1F497DA40095A4CE /* BaseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A75D1AB1F497DA40095A4CE /* BaseTabViewController.swift */; };
+		3A75D1B01F4A08BC0095A4CE /* PopupAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A75D1AF1F4A08BC0095A4CE /* PopupAnimator.swift */; };
+		3AAC62F81F4B9AA20022B0FD /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC62F71F4B9AA20022B0FD /* DataFetcher.swift */; };
+		3AAC62FC1F4BA1BB0022B0FD /* FirstCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC62FA1F4BA1BB0022B0FD /* FirstCardViewController.swift */; };
+		3AAC62FD1F4BA1BB0022B0FD /* FirstCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAC62FB1F4BA1BB0022B0FD /* FirstCardViewController.xib */; };
+		3AAC63001F4BAB080022B0FD /* SecondCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC62FE1F4BAB080022B0FD /* SecondCardViewController.swift */; };
+		3AAC63011F4BAB080022B0FD /* SecondCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAC62FF1F4BAB080022B0FD /* SecondCardViewController.xib */; };
+		3AAC63041F4BB06E0022B0FD /* ThirdCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC63021F4BB06E0022B0FD /* ThirdCardViewController.swift */; };
+		3AAC63051F4BB06E0022B0FD /* ThirdCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAC63031F4BB06E0022B0FD /* ThirdCardViewController.xib */; };
+		3AAC630C1F4BB90A0022B0FD /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC630A1F4BB90A0022B0FD /* DishViewController.swift */; };
+		3AAC630D1F4BB90A0022B0FD /* DishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAC630B1F4BB90A0022B0FD /* DishViewController.xib */; };
+		3AAC630F1F4BBBEF0022B0FD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAC630E1F4BBBEF0022B0FD /* Helpers.swift */; };
+		3AB8AC991F4BFF3D00F76EF2 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8AC981F4BFF3D00F76EF2 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +90,22 @@
 		009573331DF2327D003412B9 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
 		00EE09711DF24D160096F568 /* PartialReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PartialReservation.json; sourceTree = "<group>"; };
 		00EE09731DF24D520096F568 /* FullReservation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FullReservation.json; sourceTree = "<group>"; };
+		3A75D19D1F4955CE0095A4CE /* DiningModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiningModeViewController.swift; sourceTree = "<group>"; };
+		3A75D19E1F4955CE0095A4CE /* DiningModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiningModeViewController.xib; sourceTree = "<group>"; };
+		3A75D1A51F4963010095A4CE /* BannerInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerInteractiveTransition.swift; sourceTree = "<group>"; };
+		3A75D1AB1F497DA40095A4CE /* BaseTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabViewController.swift; sourceTree = "<group>"; };
+		3A75D1AF1F4A08BC0095A4CE /* PopupAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupAnimator.swift; sourceTree = "<group>"; };
+		3AAC62F71F4B9AA20022B0FD /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		3AAC62FA1F4BA1BB0022B0FD /* FirstCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCardViewController.swift; sourceTree = "<group>"; };
+		3AAC62FB1F4BA1BB0022B0FD /* FirstCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCardViewController.xib; sourceTree = "<group>"; };
+		3AAC62FE1F4BAB080022B0FD /* SecondCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCardViewController.swift; sourceTree = "<group>"; };
+		3AAC62FF1F4BAB080022B0FD /* SecondCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCardViewController.xib; sourceTree = "<group>"; };
+		3AAC63021F4BB06E0022B0FD /* ThirdCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdCardViewController.swift; sourceTree = "<group>"; };
+		3AAC63031F4BB06E0022B0FD /* ThirdCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdCardViewController.xib; sourceTree = "<group>"; };
+		3AAC630A1F4BB90A0022B0FD /* DishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishViewController.swift; sourceTree = "<group>"; };
+		3AAC630B1F4BB90A0022B0FD /* DishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DishViewController.xib; sourceTree = "<group>"; };
+		3AAC630E1F4BBBEF0022B0FD /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		3AB8AC981F4BFF3D00F76EF2 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +158,7 @@
 		009572FA1DF2210E003412B9 /* DiningMode */ = {
 			isa = PBXGroup;
 			children = (
+				3AAC62F91F4BA1800022B0FD /* Cards */,
 				009573291DF22145003412B9 /* Vendor */,
 				009572FB1DF2210E003412B9 /* AppDelegate.swift */,
 				009572FD1DF2210E003412B9 /* ViewController.swift */,
@@ -133,6 +166,13 @@
 				009573021DF2210E003412B9 /* Assets.xcassets */,
 				009573041DF2210E003412B9 /* LaunchScreen.storyboard */,
 				009573071DF2210E003412B9 /* Info.plist */,
+				3A75D19D1F4955CE0095A4CE /* DiningModeViewController.swift */,
+				3A75D19E1F4955CE0095A4CE /* DiningModeViewController.xib */,
+				3A75D1A51F4963010095A4CE /* BannerInteractiveTransition.swift */,
+				3AAC62F71F4B9AA20022B0FD /* DataFetcher.swift */,
+				3A75D1AB1F497DA40095A4CE /* BaseTabViewController.swift */,
+				3A75D1AF1F4A08BC0095A4CE /* PopupAnimator.swift */,
+				3AAC630E1F4BBBEF0022B0FD /* Helpers.swift */,
 			);
 			path = DiningMode;
 			sourceTree = "<group>";
@@ -173,6 +213,22 @@
 				009573331DF2327D003412B9 /* AFNetworking.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AAC62F91F4BA1800022B0FD /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				3AAC62FA1F4BA1BB0022B0FD /* FirstCardViewController.swift */,
+				3AAC62FB1F4BA1BB0022B0FD /* FirstCardViewController.xib */,
+				3AAC62FE1F4BAB080022B0FD /* SecondCardViewController.swift */,
+				3AAC62FF1F4BAB080022B0FD /* SecondCardViewController.xib */,
+				3AAC63021F4BB06E0022B0FD /* ThirdCardViewController.swift */,
+				3AAC63031F4BB06E0022B0FD /* ThirdCardViewController.xib */,
+				3AAC630A1F4BB90A0022B0FD /* DishViewController.swift */,
+				3AAC630B1F4BB90A0022B0FD /* DishViewController.xib */,
+				3AB8AC981F4BFF3D00F76EF2 /* CardViewController.swift */,
+			);
+			name = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +300,6 @@
 				TargetAttributes = {
 					009572F71DF2210E003412B9 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = QPU8QS3E62;
 						ProvisioningStyle = Automatic;
 					};
 					0095730B1DF2210E003412B9 = {
@@ -286,10 +341,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAC63051F4BB06E0022B0FD /* ThirdCardViewController.xib in Resources */,
 				009573311DF2254C003412B9 /* 2dishes.json in Resources */,
+				3A75D1A01F4955CE0095A4CE /* DiningModeViewController.xib in Resources */,
 				009573061DF2210E003412B9 /* LaunchScreen.storyboard in Resources */,
 				009573031DF2210E003412B9 /* Assets.xcassets in Resources */,
 				00EE09721DF24D160096F568 /* PartialReservation.json in Resources */,
+				3AAC62FD1F4BA1BB0022B0FD /* FirstCardViewController.xib in Resources */,
+				3AAC63011F4BAB080022B0FD /* SecondCardViewController.xib in Resources */,
+				3AAC630D1F4BB90A0022B0FD /* DishViewController.xib in Resources */,
 				00EE09741DF24D520096F568 /* FullReservation.json in Resources */,
 				009573011DF2210E003412B9 /* Main.storyboard in Resources */,
 			);
@@ -316,10 +376,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A75D19F1F4955CE0095A4CE /* DiningModeViewController.swift in Sources */,
+				3AAC630F1F4BBBEF0022B0FD /* Helpers.swift in Sources */,
+				3AAC62FC1F4BA1BB0022B0FD /* FirstCardViewController.swift in Sources */,
+				3AAC63001F4BAB080022B0FD /* SecondCardViewController.swift in Sources */,
+				3A75D1AC1F497DA40095A4CE /* BaseTabViewController.swift in Sources */,
 				009572FE1DF2210E003412B9 /* ViewController.swift in Sources */,
 				009572FC1DF2210E003412B9 /* AppDelegate.swift in Sources */,
 				0095732B1DF22154003412B9 /* Reservation.swift in Sources */,
+				3A75D1B01F4A08BC0095A4CE /* PopupAnimator.swift in Sources */,
+				3AAC63041F4BB06E0022B0FD /* ThirdCardViewController.swift in Sources */,
+				3AAC62F81F4B9AA20022B0FD /* DataFetcher.swift in Sources */,
+				3AB8AC991F4BFF3D00F76EF2 /* CardViewController.swift in Sources */,
 				0095732F1DF2252F003412B9 /* ReservationAssembler.swift in Sources */,
+				3A75D1A61F4963010095A4CE /* BannerInteractiveTransition.swift in Sources */,
+				3AAC630C1F4BB90A0022B0FD /* DishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,14 +544,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QPU8QS3E62;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = DiningMode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.opentable.DiningMode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opentable.diningmode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -490,14 +561,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QPU8QS3E62;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = DiningMode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.opentable.DiningMode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opentable.diningmode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

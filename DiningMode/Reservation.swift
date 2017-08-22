@@ -84,6 +84,10 @@ struct Restaurant {
 	
 	let profilePhoto: Photo?
 	let dishes: [Dish]
+    
+    func fullAddress() -> String {
+        return String(format: "%@, %@, %@, %@, %@", street, city, state, zip, country)
+    }
 }
 
 struct Reservation {

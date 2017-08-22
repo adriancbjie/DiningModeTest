@@ -14,7 +14,9 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
+        
+		view.backgroundColor = .green // Debug colors
+        
 		// just to make sure everything links fine
 		AFHTTPSessionManager(baseURL: nil).get("", parameters: nil, progress: nil, success: nil, failure: nil)
 
